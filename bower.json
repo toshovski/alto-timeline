@@ -1,4 +1,5 @@
 {
+  "author": "Aleksandar Toshovski"
   "name": "alto-timeline",
   "description": "Timeline polymer element",
   "main": "alto-timeline.html",
