@@ -23,25 +23,6 @@
         <a href="https://google.com">Go to Google</a></alto-timeline>
 ```
 
-<custom-element-demo>
-  <template>
-    <alto-timeline time="09:00 - 10:00" title="Speaker One" icon="icons:book" status="done">Here is some cool
-        description
-    </alto-timeline>
-    <alto-timeline time="10:00 - 11:00" title="Speaker Two" icon="icons:announcement" status="done"> Some text with
-        <br/> a breakline to see the border in action
-    </alto-timeline>
-    <alto-timeline time="11:00 - 12:00" title="Speaker Three" icon="icons:build" status="progress"> Here is also a lnk:
-        <a href="https://google.com">Go to Google</a></alto-timeline>
-  </template>
-</custom-element-demo>
-```
--->
-```html
-<other-element></other-element>
-<my-element></my-element>
-```
-
 
 `alto-timeline` is an element which visualizes timelines.
 An element used to visualize the timeline.
