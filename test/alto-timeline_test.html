@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>alto-timeline test</title>
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../web-component-tester/browser.js"></script>
+
+    <link rel="import" href="../alto-timeline.html">
+</head>
+<body>
+<test-fixture id="basic">
+    <template>
+        <alto-timeline time="09:00 - 10:00" title="Speaker One" icon="icons:book" status="done">Here is some cool
+            description
+        </alto-timeline>
+    </template>
+</test-fixture>
+
+<script>
+    suite('alto-timeline', function () {
+        test('instantiating the element works', function () {
+            var element = fixture('basic');
+            assert.equal(element.is, 'alto-timeline');
+            assert.equal(element.time, "09:00 - 10:00");
+            assert.equal(element.title, "Speaker One");
+            assert.equal(element.icon, "icons:book");
+            assert.equal(element.status, "done");
+        });
+    });
+</script>
+</body>
+</html>
