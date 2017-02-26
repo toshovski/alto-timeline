@@ -1,4 +1,4 @@
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/toshovski/alto-timeline)
 
 
 # \<alto-timeline\>
@@ -25,18 +25,18 @@
 ```
 
 
-`alto-timeline` is an element which visualizes timelines.
-An element used to visualize the timeline.
+`alto-timeline` is an element which visualizes timelines. See the demo on the [webcomponents.org](https://www.webcomponents.org/element/toshovski/alto-timeline) website.
+
 
 'alto-timeline' contains the following parameters:
 
 <ul>
- <li> title: The title is shown on the left of the timeline
- <li> icon: icon, shown inside the timeline circle
+ <li> title: The title is shown on the left of the timeline and it is capitalized
+ <li> icon: icon, shown inside the timeline circle. The size of the icon is 16px
  <li> status: progress and done
 </ul>
 
-Mixins to change the base
+##Mixins to change the base
 
 |Custom property | Description | Default|
 ----------------|-------------|----------
